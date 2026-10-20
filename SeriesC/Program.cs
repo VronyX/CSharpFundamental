@@ -3,6 +3,7 @@ using SeriesC.BCollection;
 using SeriesC.CGeneric;
 using SeriesC.DLinq;
 using SeriesC.EAsynchronus;
+using SeriesC.FFileHandling;
 
 namespace SeriesC;
 
@@ -45,6 +46,10 @@ internal class Program
 
         //Asynchronous.TaskClass();
         //Asynchronous.AsyncAwait().Wait();
-        Asynchronous.Cancelation().Wait();
+        //Asynchronous.Cancelation().Wait();
+
+        //FileHandling.FileDirectoryPath();
+        //FileHandling.Streams();
+        FileHandling.Serialization();
     }
 }
